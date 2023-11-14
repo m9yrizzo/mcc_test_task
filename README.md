@@ -36,7 +36,7 @@ docker run -d --name <имя контейнера> -it -p 80:80 <мя образ
 Запустите контейнер на основе образа из DockerHub:
 
 ```
-docker run -d --name <имя контейнера> -it -p 80:80 mcc_test_task:latest
+docker run -d --name <имя контейнера> -it -p 80:80 m9yrizo/mcc_test_task:latest
 ```
 
 ____________________________________
