@@ -24,7 +24,7 @@ jobs:
       - name: Push image to Docker Hub
         uses: docker/build-push-action@v2 
         with:
-          context: /
-          file: /Dockerfile
+          context: ./
+          file: ./Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/mcc_test_task:latest
