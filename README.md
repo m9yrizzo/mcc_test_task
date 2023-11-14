@@ -19,7 +19,7 @@ git clone https://github.com/m9yrizo/mcc_test_task.git
 ```
 cd mcc_test_task
 ```
-Смонтируйте docker image:
+Соберите docker image:
 
 ```
 docker build -t <имя образа> .
@@ -57,6 +57,10 @@ ____________________________________
 **Логирование:**
 
 Логи access и error nginx вынесены в отдельную папку в одноименные файлы для удобства анализа.
+
+**GitHub workflow:**
+
+Настроена автоматическая сброка и push docker image на Docker Hub средствами GitHub Actions.
 
 **Авторы:**
 
